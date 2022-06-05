@@ -24,7 +24,7 @@ export const useFetch = (url,method="GET") => {
         setTimeout(() => {
           setLoading(false);
           setData(data);
-          setError(error);
+          setError(e => e.error);
         },1000);
       } catch (error) {
         setLoading(false);
