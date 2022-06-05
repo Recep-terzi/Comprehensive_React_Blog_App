@@ -1,0 +1,93 @@
+.blog-list{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:40px;
+    max-width: 1300px;
+    margin:40px auto
+
+}
+.blog-list .card{
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow:3px 3px 3px rgba(0,0,0,0.05);
+    transform: all 0.3s ease;
+    position: relative;
+}
+.blog-list .card:hover{
+    transform:scale(1.1);
+}
+.blog-list .card h3{
+    color:#778beb;
+    font-size:0.9em;
+}
+.blog-list .card div{
+    color:#555;
+    font-size:0.7em;
+    margin:20px 0;
+    line-height: 1.5em;
+}
+.blog-list .card a{
+    color:#786fa6;
+    text-decoration: none;
+    display:block;
+    background-color: #e2e2e2;
+    font-size:0.9em;
+    width: 150px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    margin:20px auto 0;
+}
+.blog-list .card.dark{
+    background-color: #555;
+    transition: 0.5s;
+}
+.blog-list .card.dark p,
+.blog-list .card.dark h3,
+.blog-list .card.dark div{
+    color:#e4e4e4;
+    transition: 0.5s;
+}
+
+@media (max-width: 500px) {
+    .blog-list{
+        display: block;
+    }
+    .blog-list .card{
+        margin:13px;
+
+    }
+    
+    .error{
+        font-size:20px;
+    }
+    .delete{
+        width: 30px;
+    }
+    .edit{
+        width: 30px;
+    }
+}
+.delete{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    cursor: pointer;
+    filter: invert(60%);
+}
+.delete:hover{
+    filter:invert(0);
+}
+.edit{
+    position:absolute;
+    top:10px;
+    right:60px;
+    cursor: pointer;
+    
+    filter: invert(60%);
+}
+.edit:hover{
+    filter:invert(0);
+}

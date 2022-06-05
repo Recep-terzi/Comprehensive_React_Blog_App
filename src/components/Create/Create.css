@@ -1,0 +1,66 @@
+.create{
+    color:#555;
+    max-width:480px;
+    margin:60px auto;
+}
+.create label span{
+    display: block;
+    margin: 30px 0 10px;
+}
+.create p {
+    margin-top:10px;
+    font-size:0.8em;
+}
+.create .btn{
+    display: block;
+    width:100%;
+    font-size:1em;
+    color:#fff;
+    padding: 8px 8px;
+    border:0;
+    border-radius:4px;
+    background-color:#786fa6;
+    margin-top:30px;
+    cursor:pointer;
+}
+
+.create .btn:hover{
+    background-color:#fff;
+    border:1px solid #786fa6;
+    color:#786fa6;
+}
+
+.categories{
+    display: flex;
+    align-items: center;
+}
+.categories input{
+    border-radius:15px;
+    outline:none;
+}
+.categories .btnAdd {
+    margin: 0 0 0 10px;
+    background-color: #574b90;
+    border-radius: 15px;
+}
+.categories .btnAdd:hover{
+    background-color: #303952;
+    border:0;
+    color:white;
+}
+.list{
+    font-size: 0.9em;
+    color:#786fa6 !important;
+}
+.create.dark,.create.dark h2{
+    color:#e4e4e4;
+    transition: 0.5s;
+}
+.craete.light{
+    transition: 0.5s;
+}
+@media (max-width:500px){
+    .create{
+        padding:20px;
+    }
+}

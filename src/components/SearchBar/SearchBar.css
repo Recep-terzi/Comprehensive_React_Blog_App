@@ -1,0 +1,13 @@
+.searchbar form{
+    display: flex;
+    align-items: center;
+}
+.searchbar input{
+    margin-left:10px;
+}
+@media (max-width:500px)
+{
+    .searchbar form{
+        margin-bottom:20px;
+    }
+}

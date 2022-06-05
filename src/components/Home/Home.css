@@ -1,0 +1,13 @@
+.loading{
+    color:red;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+@media (max-width:500px)
+{
+    .loading{
+        font-size:20px;
+    }
+}
