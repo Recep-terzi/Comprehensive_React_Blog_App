@@ -1,2 +1,2 @@
-# Comprehensive_React_Blog_App
+# Comprehensive React Blog App
  
