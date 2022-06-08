@@ -9,6 +9,7 @@
 * Hooks
 * Context
 * React-router-dom
+* Responsive Design
 
 # [EN]
 
