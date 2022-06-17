@@ -27,5 +27,5 @@
 
 
 
-
+![](https://i.hizliresim.com/rnswv9l.PNG)
 
